@@ -160,7 +160,7 @@ class Plugin:
         if len(range_list) < threshold:
             if range_type not in self.__req_option:
                 return
-            raise UserWarning, (
+            raise UserWarning (
                 "Please set part %s of the %s threshold!" % (
                 threshold, range_type))
 
